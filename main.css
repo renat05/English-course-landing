@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+*{	
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 1440px;
+	margin: auto;
+}
+.container{
+	width: 1105px;
+	margin: 0 auto;
+
+}
+.items{
+	width: 1105px;
+	margin: 0 auto;
+}
+.header-info{
+	display: flex;
+}
+.logo-text{
+	margin-top: 30px;
+	font-family: HeadLineA;
+}
+.img-rec{
+	background-repeat:no-repeat ;
+	background-size: 100%;
+	width: 100%;
+	height: 791px;
+}
+.bg{
+		width: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	height: 791px;
+	background-image: url('img/bg.png');
+	background-repeat:no-repeat ;
+	background-size: 100%;
+}
+
+.img-coffee-1{
+	position: absolute;
+	left: 0;
+	background-repeat:no-repeat ;
+	background-size: 100%;
+}
+.img-coffee-2{
+	position: absolute;
+	right: 0;
+	background-repeat:no-repeat ;
+	background-size: 100%;
+}
+
+.main-bg{
+	display: flex;
+}
+
+.text-1{
+	font-size: 35px;
+	line-height: 52.8px;
+	letter:-4%;
+	font-family: tahoma;
+}
+
+.text-2{
+	margin-top: 30px;
+	font-size: 35px;
+	line-height: 42px;
+	letter:-4%;
+}
+
+.info-btn{
+	display: flex;
+	margin-top: 70px;
+}
+.info-btn-1, .info-btn-2{
+	width: 209px;
+	height: 60px;
+	border-radius: 10px;
+	background: #424242CC;
+	color: #fff;
+	display: flex;
+}
+
+.info-btn-2{
+	margin-left: 30px;
+	text-align: center;
+}
+.btn-number{
+	color: #FFF;
+font-family: Helvetica Neue;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.6px;
+    margin: 5px 15px;
+}
+.btn-block{
+	    margin: 10px 0px;
+}
+.btn-info-text{
+font-family: Helvetica Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.72px;
+}
+
+.second-text{
+	color: #D2E400;
+font-family: Museo Sans Cyrl;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+}
+
+
+.btn-2{
+	margin-top: 50px;
+}
+
+.button-1{
+width: 285px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 5px;
+border: none;
+background: #E10000;
+color: #FFF;
+
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.button-2{
+width: 279px;
+height: 70px;
+flex-shrink: 0;
+background: transparent;
+border-radius: 5px;
+border: 1px solid #000;
+margin-left: 8px;
+color: #171717;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 132%; /* 23.76px */
+}
+
+
+.header-price{
+	color: #181818;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 37px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+margin-top: 100px;
+}
+
+
+.main-price-lists{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	justify-content: space-between;
+}
+
+.price{
+	width: 260px;
+height: 721px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid rgba(72, 72, 72, 0.40);
+background: rgba(196, 196, 196, 0.00);
+margin-left: 10px;
+}
+
+.pr-main{
+	width: 218px;
+	margin: 0 auto;
+}
+.course-text{
+	color: #1B002F;
+font-family: Helvetica Neue;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 108%; /* 28.08px */
+text-align: center;
+margin-top: 40px;
+}
+.course-price{
+	color: #1B002F;
+font-family: Helvetica Neue;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 108%; /* 54px */
+text-align: center;
+margin-top: 35px;
+}
+
+.course-discount{
+	width: 69px;
+height: 37px;
+flex-shrink: 0;
+border-radius: 4.685px;
+background: #E10000;
+	color: #FFF;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 18.742px;
+font-style: normal;
+position: relative;
+    left: 150px;
+    bottom: 50px;
+font-weight: 400;
+line-height: 23.427px; /* 125% */}
+
+.dis{
+	position: relative;
+	top: 5px;
+}
+.course-sale{
+	color: #A7ACBF;
+font-family: Helvetica Neue;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 108%; /* 25.92px */
+text-decoration: line-through;
+}
+
+
+.list-item{
+	list-style: none;
+	color: #2A2A2A;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 7px;
+}
+
+
+.predoplata{
+	color: #A7ACBF;
+font-family: Helvetica Neue;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 108%; /* 23.76px */
+margin-top: 10px;
+}
+
+.price-predoplata{
+	color: #1B002F;
+font-family: Helvetica Neue;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 108%; /* 34.56px */
+}
+
+.pred-button, .pred-button-2{
+	width: 220px;
+height: 66px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #E10000;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: tahoma;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 23px; /* 164.286% */
+text-transform: uppercase;
+margin-top: 10px;
+}
+
+
+.pred-button-2 {
+margin-top: 10px;
+}
+
+.banner{
+width: 1105px;
+height: 361px;
+flex-shrink: 0;
+border-radius: 20px;
+background-image: url('img/banner.png');
+background-size: 100%;
+margin-top: 80px;
+}
+.left-section{
+	width: 619px;
+height: 707px;
+transform: rotate(21.523deg);
+flex-shrink: 0;
+border-radius: 70px;
+z-index: -1;
+background: linear-gradient(201deg, #2E2F0B 2.5%, rgba(140, 142, 8, 0.00) 86.35%);
+}
+.form{
+	height: 679px;
+	background: #F5C618;
+	width: 1440px;
+	margin-top: 70px;
+}
+.form-text{
+color: #151515;
+font-family: Helvetica Neue;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 32px */
+text-align: center;
+padding-top: 60px;
+}
+
+
+.form-p{
+color: #151515;
+text-align: center;
+font-family: Montserrat;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 23.1px */
+top: 30px;
+width: 424px;
+margin: auto;
+position: relative;
+margin-bottom:40px ;
+}
+
+.form-input{
+width: 553px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+margin-top: 10px;
+border: 1px solid #000;
+display: block;
+margin: auto;
+margin-top: 10px;
+text-align: center;
+color: #686868;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 24px */
+letter-spacing: 0.24px;
+}
+
+
+
+.form-btn{
+	display: block;
+margin: auto;
+width: 553px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #E10000;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 23px; /* 76.667% */
+text-transform: uppercase;
+border: none;
+margin-top: 10px;
+}
+
+.form-end-text{
+	margin-top: 30px;
+	width: 567px;
+	color: #151515;
+text-align: center;
+position: relative;
+top: 20px;
+margin: auto;
+font-family:Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 16px */
+}
+
+.footer{
+width: 1440px;
+height: 474px;
+flex-shrink: 0;
+background: #2A2A2A;
+}
+.footer-logo{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.footer-logo-text{
+    margin: 40px 0px 0px 8px;
+    font-family: montserrat;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;	
+
+}
+.footer-text-1{
+	color: #FFF;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 39.6px */
+letter-spacing: -0.44px;
+text-transform: uppercase;
+width: 1095px;
+}
+
+
+.footer-text-2{
+	color: #FFF;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+width: 797px;
+margin: auto;
+margin-top: 20px;
+}
+
+.icons{
+	display: flex;
+	justify-content: center;
+    margin-top: 40px;
+}
+.icons img{
+	cursor: pointer;
+	padding: 10px;
+}
+
+
+
+
+
