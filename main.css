@@ -1,12 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
-
+@font-face {
+font-family: "Bebasneue";  
+src: url("fonts/bebasneueregular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+ 
+@font-face {
+font-family: "HelveticaNeue";
+src: url("fonts/HelveticaNeueCyr-Black.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
+}
+@font-face {
+font-family: "Museo";
+src: url("fonts/MuseoSansCyrl-500.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
+}
 *{	
 	margin: 0;
 	padding: 0;
 }
 body{
-	width: 1440px;
+	
 	margin: auto;
 }
 .container{
@@ -14,10 +32,10 @@ body{
 	margin: 0 auto;
 
 }
-.items{
+/*.items{
 	width: 1105px;
 	margin: 0 auto;
-}
+}*/
 .header-info{
 	display: flex;
 }
@@ -30,13 +48,27 @@ body{
 	background-size: 100%;
 	width: 100%;
 	height: 791px;
+	position: absolute;
+	right: 0;
+}
+p .result{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    width: 131px;
+}
+.message{
+	 text-align: center;
+    padding: 50px;
+    font-size: 23px;
+    font-family: 'Montserrat';
 }
 .bg{
-		width: 100%;
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
+	right: 0;
 	z-index: -1;
 	height: 791px;
 	background-image: url('img/bg.png');
@@ -49,12 +81,14 @@ body{
 	left: 0;
 	background-repeat:no-repeat ;
 	background-size: 100%;
+	    opacity: 0.5;
 }
 .img-coffee-2{
 	position: absolute;
 	right: 0;
 	background-repeat:no-repeat ;
 	background-size: 100%;
+	    opacity: 0.5;
 }
 
 .main-bg{
@@ -324,8 +358,10 @@ background: linear-gradient(201deg, #2E2F0B 2.5%, rgba(140, 142, 8, 0.00) 86.35%
 .form{
 	height: 679px;
 	background: #F5C618;
-	width: 1440px;
+	width: 100%;
 	margin-top: 70px;
+	position: absolute;
+	left: 0
 }
 .form-text{
 color: #151515;
@@ -395,25 +431,25 @@ line-height: 23px; /* 76.667% */
 text-transform: uppercase;
 border: none;
 margin-top: 10px;
+cursor: pointer !important;
 }
 
 .form-end-text{
-	margin-top: 30px;
-	width: 567px;
-	color: #151515;
-text-align: center;
-position: relative;
-top: 20px;
-margin: auto;
-font-family:Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 100%; /* 16px */
+    margin-top: 30px;
+    width: 567px;
+    color: #151515;
+    text-align: center;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .footer{
-width: 1440px;
 height: 474px;
 flex-shrink: 0;
 background: #2A2A2A;
@@ -441,7 +477,6 @@ font-weight: 400;
 line-height: 180%; /* 39.6px */
 letter-spacing: -0.44px;
 text-transform: uppercase;
-width: 1095px;
 }
 
 
